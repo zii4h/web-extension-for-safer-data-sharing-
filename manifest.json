@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "JITO - Privacy, Before You Upload",
+  "version": "0.4.5",
+  "description": "Review images and text locally. Export a separate sharing copy with image metadata removed or selected text redacted.",
+  "icons": { "128": "assets/Jito-icon.png" },
+  "action": { "default_popup": "popup.html", "default_title": "Open JITO", "default_icon": { "128": "assets/Jito-icon.png" } },
+  "background": { "service_worker": "background.js" },
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": ["https://*/*", "http://*/*"],
+  "web_accessible_resources": [{ "resources": ["workspace.html"], "matches": ["https://*/*", "http://*/*"] }],
+  "content_security_policy": {
+    "extension_pages": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' blob:; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'"
+  }
+}
+
+
+

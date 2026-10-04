@@ -1,0 +1,9 @@
+JITO integration acceptance sample - all identifiers below are fictional test data.
+
+Email: fictional@example.com
+Test card: 4111 1111 1111 1111
+Synthetic US SSN: 123-45-6789
+Fake token: sk-proj-abcdefghijklmnopqrstuvwxyz123456
+
+Keep this sentence: The community garden opens on Saturday.
+
